@@ -6471,10 +6471,14 @@ footer {
     padding-bottom: 16px;
     font-weight: 200; }
     footer .lower-footer .social-links {
-      padding-right: 0; }
+      padding-right: 0;
+      padding-left: 0; }
     footer .lower-footer .nav {
-      text-align: right;
       float: right; }
+      @media (max-width: 992px) {
+        footer .lower-footer .nav {
+          float: none;
+          display: inline-flex; } }
       footer .lower-footer .nav li {
         font-size: 16px;
         display: inline; }
@@ -6482,6 +6486,13 @@ footer {
           padding: 0 16px; }
         footer .lower-footer .nav li:last-of-type a {
           padding-right: 0; }
+    @media (max-width: 992px) {
+      footer .lower-footer {
+        text-align: center; }
+        footer .lower-footer .col-12 {
+          margin-top: 16px; } }
+  footer .footer-inputs {
+    margin-bottom: 26px; }
 
 .card {
   box-shadow: 0 0 1px 0 rgba(100, 109, 130, 0.1), 0 2px 4px 0 rgba(100, 109, 130, 0.14); }

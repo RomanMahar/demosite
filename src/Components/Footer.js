@@ -5,7 +5,7 @@ const Footer = () => {
 	<footer className="footer">
 		<div className="container container-sm">
 			<div className="row">
-				<div className="col-12 col-sm-6">
+				<div className="col-12 col-lg-6 footer-inputs">
 					<div className="row">
 						<div className="col-12 footer-brand">
 							<span className="bold-text">tooth</span><span className="light-text">meister</span>
@@ -26,7 +26,7 @@ const Footer = () => {
 					</div>
 				</div>
 
-				<div className="col-12 col-sm-2">
+				<div className="col-4 col-lg-2">
 					<h6>Heading 1</h6>
 					<ul className="footer-nav">
 						<li className="footer-nav-item">
@@ -44,7 +44,7 @@ const Footer = () => {
 					</ul>
 				</div>
 
-				<div className="col-12 col-sm-2">
+				<div className="col-4 col-lg-2">
 					<h6>About</h6>
 					<ul className="footer-nav">
 						<li className="footer-nav-item">
@@ -62,7 +62,7 @@ const Footer = () => {
 					</ul>
 				</div>
 
-				<div className="col-12 col-sm-2">
+				<div className="col-4 col-lg-2">
 					<h6>Heading 3</h6>
 					<ul className="footer-nav">
 						<li className="footer-nav-item">
@@ -83,15 +83,15 @@ const Footer = () => {
 			</div>
 
 			<div className="row hr-rule lower-footer">
-				<div className="col-4"><span>© 2018 Toothmeister</span></div>
-				<div className="col-4">
+				<div className="col-12 col-lg-4"><span>© 2018 Toothmeister</span></div>
+				<div className="col-12 col-lg-4">
 					<a href="#">&nbsp; Terms of use &nbsp;</a>
 					· 
 					<a href="#">&nbsp; Privacy policy &nbsp;</a>
 					·
 					<a href="#">&nbsp; Trust &amp; Safety &nbsp;</a>
 				</div>
-				<div className="col-4 social-links">
+				<div className="col-12 col-lg-4 social-links">
 					<ul className="nav">
 						<li className="nav-item">
 							<a href="#" className="nav-link">
