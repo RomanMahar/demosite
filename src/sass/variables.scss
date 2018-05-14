@@ -1,0 +1,22 @@
+$off-white: #F7F9FC;
+$off-grey: #EDF0F5; 
+$xxlight-grey: #E8EAEE; 
+$xlight-grey: #DCE1EA;
+$light-grey: #A6B1C2;
+$grey: #646D82;
+$dark-teal: #2AA2C3;
+$light-teal: #42D1E3;
+$green: #22CE8B;
+$salmon: #F46363;
+$black-text: #040E28;
+$lilac: #A97EF1;
+
+@mixin noShadowMq {
+    @media (max-width: 992px) {
+        box-shadow: none;
+    }
+}
+
+@mixin navItemBorder($color) {
+    border-bottom: 3px solid $color;
+}

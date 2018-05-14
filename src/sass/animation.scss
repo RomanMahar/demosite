@@ -1,0 +1,9 @@
+@keyframes nav-hover {
+    0%   { box-shadow: 0 20px 0 white, 0px 20px 0px #42D1E3; }
+    100% { box-shadow: 0 15px 0 white, 0px 20px 0px #42D1E3; }
+  }
+
+  @keyframes nav-hover-off {
+      0% { box-shadow: 0 15px 0 white, 0px 20px 0px #42D1E3; }
+      100%   { box-shadow: 0 20px 0 white, 0px 20px 0px #42D1E3; }
+  }
