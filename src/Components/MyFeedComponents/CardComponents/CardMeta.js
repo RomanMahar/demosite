@@ -9,16 +9,22 @@ const CardMeta = (props) => {
             <span className="card-date meta-data">{props.meta.date}</span>
             <ul className="card-social">
                 <li className="likes meta-data">
-                    <i class="fas fa-thumbs-up"></i>
-                    {props.meta.likes}
+                    <a href="#">
+                        <i class="fas fa-thumbs-up"></i>
+                        {props.meta.likes}
+                    </a>
                 </li>
                 <li className="replies meta-data">
-                    <i class="fas fa-comment-alt"></i>
-                    {props.meta.replies}
+                    <a href="#">
+                        <i class="fas fa-comment-alt"></i>
+                        {props.meta.replies}
+                    </a>
                 </li>
                 <li className="shares meta-data">
-                    <i class="fas fa-share"></i>
-                    {props.meta.shares}
+                    <a href="#">
+                        <i class="fas fa-share"></i>
+                        {props.meta.shares}
+                    </a>
                 </li>
             </ul>
         </div>

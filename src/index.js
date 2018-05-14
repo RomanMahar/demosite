@@ -4,23 +4,16 @@ import 'bootstrap/scss/bootstrap.scss';
 
 import {} from './sass/styles.scss';
 
-import { Header, MyFeed } from './Components';
+import { Header, MyFeed, Footer } from './Components';
 
 
 class App extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = { 
-    //         videos: [],
-    //         selectedVideo: null,
-    //     };
-    //     this.videoSearch('drag race')
-    // }
     render() {
         return (
             <div>
                 <Header />
                 <MyFeed />
+                <Footer />
             </div>
         ) 
     }

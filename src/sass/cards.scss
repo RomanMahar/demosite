@@ -1,0 +1,190 @@
+.card {
+    box-shadow: 0 0 1px 0 rgba(100,109,130,0.10), 0 2px 4px 0 rgba(100,109,130,0.14);
+    .tags {
+        margin-bottom: 16px;
+        position: relative;
+        .medallion {
+            position: absolute;
+            background-color: $green;
+            padding-top: 7px;
+            border-radius: 50%;
+            font-weight: 600;
+            font-size: 14px;
+            color: white;
+            top: -36px;
+            right: 0;
+            width: 31px;
+            height: 31px;
+        }
+    }
+}
+.card-heading {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    &.lilac {
+        background-color: $lilac;
+    }
+    &.salmon {
+        background-color: $salmon;
+    }
+    .blog {
+        font-weight: 300;
+    }
+    .bullet {
+        opacity: 0.5;
+    }
+    .category-name {
+        font-weight: 700;
+    }
+}
+
+.card-title {
+    font-size: 18px;
+}
+.blog-post .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.meta-data {
+    display: inline;
+    color: $light-grey;
+}
+.card-meta {
+    margin-bottom: 10px;
+        ul {
+        display: inline;
+        text-align: right;
+        float: right;
+        li {
+            list-style: none;
+            margin-right: 16px;
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.card-text {
+    clear: both;
+    font-size: 14px;
+    color: $grey;
+}
+
+.card-author {
+    background-color: $off-white;
+    border-top: 1px solid $xxlight-grey;
+    padding: 10px 20px;
+    margin: 0 -20px -20px;
+    position: relative;
+    .card-author-info {
+        position: absolute;
+        left: 78px;
+        top: 50%;
+        transform: translateY(-50%);
+        .card-author-user {
+            font-size: 10px;
+            font-style: italic;
+            color: $grey;
+            margin-right: 10px;
+        }
+        .card-author-location {
+            svg {
+                margin-right: 5px;
+            }
+        }
+    }
+    .card-author-image {
+        display: inline;
+        border-radius: 50%;
+        margin-right: 10px;
+        height: 48px;
+        width: 48px;
+    }
+}
+
+.card .badge-pill {
+    font-size: 12px;
+    background-color: $light-teal;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 10px;
+    padding: 4.5px 7px;
+}
+
+.advert-card {
+    font-family: "Oswald", "Helvetica Condensed", "sans serif";
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    .advert-copy {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 7px 13px;
+        font-size: 26px;
+        background-color: rgba(0,0,0,0.5);
+        @media (max-width: 768px){
+            font-size: 16px;
+        }
+        @media (max-width: 576px){
+            font-size: 26px;
+        }
+    }
+    .footer {
+        position: relative;
+        background: #000;
+        height: 40px;
+        font-size: 12px;
+        padding: 8px 6px 8px 27px;
+        @media (max-width: 768px){
+            font-size: 10px;
+            .advert-logo img {
+                width: 140px;
+            }
+        }
+        @media (max-width: 576px){
+            font-size: inherit;
+            .advert-logo img {
+                width: inherit;
+            }
+        }
+        .promoted-by, .advert-logo {
+            position: absolute;
+        }
+        .promoted-by {
+            bottom: 4px;
+            margin-right: 30px;
+        }
+        .advert-logo {
+            bottom: 8px;
+            right: 8px;
+        }
+    }
+}
+.meta-data a {
+    color: $light-grey;
+    &:hover {
+        color: $dark-teal;
+    }
+}
+
+.group-title {
+    color: $grey;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.card-footer {
+    padding: 10px 20px;
+    margin: 0 -20px -20px;
+    text-align: center;
+    font-weight: 600;
+}
+.group-img {
+    float: right;
+}
+.group-midsection {
+    margin-bottom: 32px;
+}
