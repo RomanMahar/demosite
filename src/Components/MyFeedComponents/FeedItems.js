@@ -14,7 +14,6 @@ const FeedItems = () => {
                 imageAlt="EVO Camera"
                 title="How to take the best pictures at your practice"
                 text="There isn’t always time (or money!) to get a professional photographer to take photos for you so we’ve put together a list of tips &amp; tricks."
-                tags={["Practice MGMT", "Procurement"]}
                 meta={{ date:"March 14, 2018", likes:275, replies:12, shares:12 }}
                 author={{ name:"Dr. Bob Abborford, DMD", user:"DR. YANKEM", location:"Baltimore, MD", imageSrc:"./img/bob.png" }}
             />
